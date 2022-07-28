@@ -1,0 +1,114 @@
+body{
+  font-family: fantasy;
+  font-size:110%;
+  background-color: #dab1e4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+  
+}
+
+#profilePic {
+  
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border:3px solid darkorchid;
+  box-shadow: 1px 0.5px 40px #170022;
+ 
+  
+}
+
+
+
+.nav-menu {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #421653;
+  
+  
+}
+
+#top ul li {
+  list-style: none;
+}
+
+#top ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header {
+ 
+  /*background-color: #470761; */
+    text-align: center;
+    background-color: #421653;
+    color: white;
+    text-shadow: 5px 0.5px 40px black;
+}
+
+#header-content {
+  
+   background-image: url('../images/27-276114_colour-wallpaper-download.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  
+}
+
+
+
+
+
+footer {
+  background-color: #421653;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sidebar {
+  width: 20%;
+  background-color: #923db4;
+  padding: 1rem;
+  
+  
+}
+
+
+section {
+  background-color: #8518b1;
+  
+}
+
+article {
+ color: white;
+ text-shadow: 5px 5px 10px black;
+ padding: 20px;
+  
+}
+.icons {
+  margin: 0.5rem;
+  height: auto;
+  
+  
+}
+
+#intro-text {
+
+  text-align: center;
+  color: white;
+  text-shadow: 1px 0.5px 40px black;
+}
+
+ 
